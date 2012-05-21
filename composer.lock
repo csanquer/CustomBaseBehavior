@@ -1,0 +1,29 @@
+{
+    "hash": "657ecf1e21a72cfc3b5af50604c078c0",
+    "packages": [
+        {
+            "package": "phing/phing",
+            "version": "2.4.12"
+        },
+        {
+            "package": "propel/propel1",
+            "version": "dev-master",
+            "source-reference": "7f8f58779902ed0dfa4e3c6e7233caa1b4d93b49",
+            "alias-pretty-version": "1.6.x-dev",
+            "alias-version": "1.6.9999999.9999999-dev"
+        },
+        {
+            "package": "propel/propel1",
+            "version": "dev-master",
+            "source-reference": "7f8f58779902ed0dfa4e3c6e7233caa1b4d93b49"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "propel/propel1": 20
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "csanquer/custom-base-behavior",
+    "description": "Propel Behavior to customize generated Base classes extending",
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "require": {
+        "propel/propel1": "1.6.x-dev"
+    }
+}
