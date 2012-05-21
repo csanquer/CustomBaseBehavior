@@ -34,7 +34,8 @@ Enable the behavior in your schema.xml:
     <parameter name="base_Query" value="MyCustomBaseQuery" />   <!-- default = "ModelCriteria" -->
   </behavior>
 </table>
+```
 
 Base classes can use namespaces ( with \, / or dot character).
 
-Your custom Base Object class should extend Propel BaseObject and Your custom Base Query class should extend Propel ModelCriteria
+Your custom Base Object class should extend Propel BaseObject and your custom Base Query class should extend Propel ModelCriteria.
