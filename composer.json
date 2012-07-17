@@ -1,10 +1,18 @@
 {
     "name": "csanquer/custom-base-behavior",
-    "description": "Propel Behavior to customize generated Base classes extending",
+    "description": "Propel Behavior to customize generated parent Base classes ",
+    "keywords": [ "propel", "behavior", "base" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charles SANQUER",
+            "email": "charles.sanquer@gmail.com"
+        }
+    ],
     "autoload": {
-        "classmap": ["src"]
+        "classmap": ["src/"]
     },
     "require": {
-        "propel/propel1": "1.6.x-dev"
+        "propel/propel1": "1.6.*"
     }
 }
