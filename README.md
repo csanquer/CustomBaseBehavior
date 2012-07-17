@@ -1,7 +1,13 @@
 CustomBaseBehavior
 ==================
 
-Propel Behavior to customize generated Base classes extending
+Propel Behavior to customize generated Parent Base classes 
+
+License
+-------
+
+MIT License
+copyright (c) 2012 Charles Sanquer
 
 Requirements
 ------------
