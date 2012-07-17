@@ -1,7 +1,7 @@
 CustomBaseBehavior
 ==================
 
-Propel Behavior to customize generated Parent Base classes 
+Propel Behavior to customize generated Parent Base classes
 
 License
 -------
