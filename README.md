@@ -37,7 +37,7 @@ Enable the behavior in your schema.xml:
   <behavior name="custom_base">
     <parameter name="base_object" value="MyCustomBaseObject" /> <!-- default = "BaseObject" -->
     <parameter name="base_peer" value="MyCustomBasePeer" />     <!-- default = "" -->
-    <parameter name="base_Query" value="MyCustomBaseQuery" />   <!-- default = "ModelCriteria" -->
+    <parameter name="base_query" value="MyCustomBaseQuery" />   <!-- default = "ModelCriteria" -->
   </behavior>
 </table>
 ```

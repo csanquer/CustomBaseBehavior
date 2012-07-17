@@ -21,30 +21,28 @@ class CustomBaseBehavior extends Behavior
 
     protected function getClassName($fullyQualifiedClassName)
     {
+        $className = $fullyQualifiedClassName;
         if (($pos = strrpos($fullyQualifiedClassName, '\\')) !== false) {
             $className = substr($fullyQualifiedClassName, $pos + 1);
             $namespace = substr($fullyQualifiedClassName, 0, $pos);
-
-            return $className;
         }
 
-        return $fullyQualifiedClassName;
+        return $className;
     }
 
     public function parentClass($builder)
     {
         switch (get_class($builder)) {
-            case 'PHP5ObjectBuilder':
-                $class = $this->getParameter('base_object');
-                break;
-            case 'QueryBuilder':
-                $class = $this->getParameter('base_query');
-                break;
             case 'PHP5PeerBuilder':
                 $class = $this->getParameter('base_peer');
                 break;
-            default:
-                $class = null;
+            
+            case 'QueryBuilder':
+                $class = $this->getParameter('base_query');
+                break;
+            
+            case 'PHP5ObjectBuilder':
+                $class = $this->getParameter('base_object');
                 break;
         }
 
@@ -54,7 +52,5 @@ class CustomBaseBehavior extends Behavior
 
             return $this->getClassName($class);
         }
-
-        return null;
     }
 }
