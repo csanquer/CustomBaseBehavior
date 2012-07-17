@@ -1,6 +1,8 @@
 CustomBaseBehavior
 ==================
 
+[![Build Status](https://secure.travis-ci.org/csanquer/CustomBaseBehavior.png?branch=master)](http://travis-ci.org/csanquer/CustomBaseBehavior)
+
 Propel Behavior to customize generated Parent Base classes
 
 License
@@ -45,3 +47,14 @@ Enable the behavior in your schema.xml:
 Base classes can use namespaces ( with \, / or dot character).
 
 Your custom Base Object class should extend Propel BaseObject and your custom Base Query class should extend Propel ModelCriteria.
+
+Tests
+-----
+
+To run tests
+
+```bash
+curl -s http://getcomposer.org/installer | php
+php composer.phar --dev install
+phpunit
+```
