@@ -9,6 +9,7 @@ License
 -------
 
 MIT License
+
 copyright (c) 2012 Charles Sanquer
 
 Requirements
@@ -19,7 +20,11 @@ This behavior requires Propel >=1.6.0
 Installation
 ------------
 
-Copy the behavior to a specific path and then register the behavior class by adding the following to the bottom of the `build.properties` file in you project folder:
+You can use [composer](http://getcomposer.org/)  and [packagist.org](http://packagist.org/) package [csanquer/custom-base-behavior](http://packagist.org/packages/csanquer/custom-base-behavior)
+
+Or just download and copy the behavior to a specific path. 
+
+Then register the behavior class by adding the following to the bottom of the `build.properties` file in you project folder:
 
 ```ini
 # check that you have behaviors enabled
