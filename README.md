@@ -3,6 +3,16 @@ CustomBaseBehavior
 
 [![Build Status](https://secure.travis-ci.org/csanquer/CustomBaseBehavior.png?branch=master)](http://travis-ci.org/csanquer/CustomBaseBehavior)
 
+License
+-------
+
+MIT License
+
+copyright (c) 2012 Charles Sanquer
+
+Functionality
+-------------
+
 Propel Behavior to customize generated Parent Base classes
 
 The normal propel inheritance with generated base classes follow this schema : 
@@ -13,17 +23,10 @@ With CustomBaseBehavior you can change the parent classes of the base generated 
 
 ![Customized inheritance schema](https://github.com/csanquer/CustomBaseBehavior/raw/master/doc/custom_base.jpg)
 
-License
--------
-
-MIT License
-
-copyright (c) 2012 Charles Sanquer
-
 Requirements
 ------------
 
-This behavior requires Propel >=1.6.0
+This behavior requires [Propel](https://github.com/propelorm/Propel) >=1.6.0
 
 Installation
 ------------
