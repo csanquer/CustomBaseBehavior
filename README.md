@@ -5,6 +5,14 @@ CustomBaseBehavior
 
 Propel Behavior to customize generated Parent Base classes
 
+The normal propel inheritance with generated base classes follow this schema : 
+
+![Normal inheritance schema](https://github.com/csanquer/CustomBaseBehavior/raw/master/doc/normal_base.jpg)
+
+With CustomBaseBehavior you can change the parent classes of the base generated classes and share common methods between model objects
+
+![Customized inheritance schema](https://github.com/csanquer/CustomBaseBehavior/raw/master/doc/custom_base.jpg)
+
 License
 -------
 
