@@ -1,0 +1,15 @@
+digraph G {
+    rankdir = BT
+    node [ shape = box]
+    Book
+    BookPeer
+    BookQuery
+    BaseObject [color = blue  fontcolor = blue ]
+    ModelCriteria [color = blue fontcolor = blue ]
+    Book -> BaseBook;
+    BookQuery -> BaseBookQuery ;
+    BookPeer -> BaseBookPeer;
+    BaseBook -> BaseObject [ color = blue ];
+    BaseBookQuery -> ModelCriteria [ color = blue];
+    
+}

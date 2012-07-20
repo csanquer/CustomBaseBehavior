@@ -1,0 +1,25 @@
+digraph G {
+    rankdir = BT
+    node [shape=box]
+
+    Book
+    BookPeer
+    BookQuery
+    CustomBaseObject [color = red fontcolor = red]
+    CustomBasePeer [color = red fontcolor = red]
+    CustomBaseQuery [color = red fontcolor = red]
+    BaseObject [color = blu fontcolor = blue]
+    ModelCriteria [color = blue fontcolor = blue]
+
+    Book -> BaseBook ;
+    BookQuery -> BaseBookQuery ;
+    BookPeer -> BaseBookPeer ;
+    BaseBook -> CustomBaseObject [ color = red style = bold ];
+    BaseBookQuery -> CustomBaseQuery [ color = red style = bold ];
+    BaseBookPeer -> CustomBasePeer [ color = red style = bold ];
+    CustomBaseObject -> BaseObject;
+    CustomBaseQuery -> ModelCriteria;
+    BaseBook -> BaseObject [ color = blue style = dotted ];
+    BaseBookQuery -> ModelCriteria [ color = blue style = dotted ];
+    
+}
